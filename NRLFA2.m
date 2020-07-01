@@ -4,6 +4,7 @@ function [Linelosssum] = NRLFA2(PVGEN1)
 % Updated loadflow.m - Jan-6-2018
 %clc;
 %clear all;
+%dadssad
 PVGEN=zeros(64,1);
 for i=1:size(PVGEN1,2)
     PVGEN(34-i)=PVGEN(34-i)+PVGEN1(i);
